@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios viejuners</title>
+</head>
+<body>
+    <h1>Formularios Viejuners</h1>
+    <div>
+        <form action="">
+            <fieldset>
+            <legend>El club viejuner</legend>
+            <h2>Tú:</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Nombre" tabindex="1" autofocus><br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" placeholder="Apellido" tabindex="2"><br><br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" placeholder="edad" tabindex="3"><br><br>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="sexo" value="H" tabindex="4" tabindex="13">Hombre
+            <input type="radio" name="sexo" value="M" tabindex="5" tabindex="12">Mujer<br><br>
+            <label for="viejuner">Me siento viejuner:</label>
+            <input type="checkbox" name="viejuner" tabindex="6"><br><br>
+            <label for="sobre">Escribe algo sobre ti:</label>
+            <textarea name="sobre" placeholder="Escribe algo sobre ti"></textarea><br><br>
+            <label for="circunstancias">Tus circunstancias:</label>
+            <input type="text" name="circunstancias" tabindex="7"><br><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo" placeholder="prueba@gmail.com" tabindex="8"><br><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" name="telefono" placeholder="123-45-67-89" tabindex="9"><br><br>
+            <input type="submit" tabindex="10">
+            <input type="reset" tabindex="11">
+            </fieldset>
+        </form><br><br>
+
+        <form action="">
+            <fieldset>
+            <legend>Los ladronzuelos de bicicletas</legend><br><br>
+            <label for="fecha1">Dìa:</label>
+            <input type="date" name="fecha1"><br><br>
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora"><br><br>
+            <label for="color">Color de la bicicleta:</label>
+            <input type="color" name="color"><br><br>
+            <label for="rango">Rango de precio:</label>
+            <input type="range" name="rango"><br><br>
+            <label for="cars">Tipo de bicicleta:</label>
+            <select name="cars">
+                <optgroup label="Paseo">
+                <option value="señorial">Señorial</option>
+                <option value="plebeyos">Anti-plebeyos</option>
+                <option value="hombro">PorEncimaDelHombro</option>
+                </optgroup>
+                <optgroup label="Montaña">
+                <option value="gamusinos">Gamusinos</option>
+                <option value="flores">Hueleflores premium</option>
+                <option value="fango">Fango lover</option>
+                </optgroup>
+                <optgroup label="Carreras">
+                <option value="metroymedio">Metroymedio</option>
+                <option value="fluorescente">3 de la tarde. Fluorescente edition</option>
+                <option value="grupitors">Grupitors</option>
+                </optgroup>
+            </select><br><br>
+            <label for="accesorios">Accesorios:</label>
+            <select name="accesorios" id="accesorios" multiple>
+                <option value="ruedines">Ruedines</option>
+                <option value="pegatinas">Pegatinas</option>
+                <option value="cestita">Cestita</option>
+                <option value="bomba">Bomba de aire</option>
+                <option value="timbre" >Timbre</option>
+                <option value="foco">Foco</option>
+            </select><br><br>
+            <section>
+                <label for="marcas">Que marca era?:</label>
+                <input type="text" name="marcas" list="marca">
+                
+                <datalist id="marca">
+                <option value="specialized"></option>
+                <option value="trek"></option>
+                <option value="merida"></option>
+                <option value="scott"></option>
+                <option value="giant"></option>
+                <option value="cube"></option>
+                <option value="lapierre"></option>
+                <option value="orbea"></option>
+                <option value="cannondale"></option>
+                <option value="bmc"></option>
+                <option value="canyon"></option>
+                <option value="look"></option>
+                <option value="protek"></option>
+                <option value="megamo"></option>
+                <option value="pinarello"></option>
+                <option value="bianchi"></option>
+                <option value="bh"></option>
+                <option value="factor"></option>
+                <option value="ghost"></option>
+                <option value="cervelo"></option>
+                <option value="argon"></option>
+                </datalist>
+            </section><br><br>
+            <input type="submit">
+            <input type="reset">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
